@@ -1,11 +1,43 @@
 # top-rps
 
-To be written
+![Static Badge](<https://img.shields.io/badge/authors-Mat(2.718)i-93c6d6>)
+![GitHub License](https://img.shields.io/github/license/matei-george/chat-agents-si)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/matei-george/chat-agents-si/main)
+![Static Badge](https://img.shields.io/badge/language-HTML-82aeb1)
+![Static Badge](https://img.shields.io/badge/language-CSS-82aeb1)
+![Static Badge](https://img.shields.io/badge/language-JS-82aeb1)
 
-# What is this about?
+---
 
-This project will contain the Rock Paper Scissors game for The Odin Project. It will contain a small website aimed to provide the smoothest gaming experience.
+<p align="center">
+Abstract : TODO
+</p>
 
-# Auhtors
+## Table of Contents
 
-Mat(2.718)i
+1. [Introduction](#introduction)
+2. [Tech-Stack](#tech-stack)
+3. [Setup](#setup)
+4. [Usage](#usage)
+5. [Notes](#notes)
+
+## Introduction
+
+TODO
+
+## Tech-Stack
+
+TODO
+
+## Setup
+
+TODO
+
+## Usage
+
+TODO
+
+## Notes
+
+Copyright © 2023 [Mat(2.718)](https://github.com/matei-george) <br>
+All rights reserved, under the [MIT](https://mit-license.org/) license.
