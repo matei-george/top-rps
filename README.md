@@ -1,8 +1,8 @@
 # top-rps
 
 ![Static Badge](<https://img.shields.io/badge/authors-Mat(2.718)i-93c6d6>)
-![GitHub License](https://img.shields.io/github/license/matei-george/chat-agents-si)
-![GitHub last commit (branch)](https://img.shields.io/github/last-commit/matei-george/chat-agents-si/main)
+![GitHub License](https://img.shields.io/github/license/matei-george/top-rps)
+![GitHub last commit (branch)](https://img.shields.io/github/last-commit/matei-george/top-rps/main)
 ![Static Badge](https://img.shields.io/badge/language-HTML-82aeb1)
 ![Static Badge](https://img.shields.io/badge/language-CSS-82aeb1)
 ![Static Badge](https://img.shields.io/badge/language-JS-82aeb1)

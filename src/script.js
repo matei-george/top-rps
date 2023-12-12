@@ -1,1 +1,1 @@
-// TODO Create logic for the game accoring to TOP guidelines.
+// The logic of the game.
