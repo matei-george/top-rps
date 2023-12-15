@@ -1,1 +1,142 @@
-/* Stylesheet used for styling the website, in a responsive manner. */
+/* The game container */
+
+.game-container {
+   width: 600px;
+   height: 900px;
+   background-color: var(--bg);
+   margin: 24px auto;
+   padding: 10px 18px;
+   border-radius: 30px;
+   box-shadow: 7px 7px 30px #263145, -7px -7px 30px #2e3b55;
+   display: flex;
+   flex-flow: column nowrap;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+.game__title {
+   font-weight: 700;
+   font-size: 44px;
+   text-transform: uppercase;
+   color: var(--fg);
+   text-align: center;
+   margin-bottom: 16px;
+}
+
+.game__length-container {
+   width: 80%;
+   height: 75px;
+   background-color: var(--fg);
+   border-radius: 20px;
+   box-shadow: inset 8px 8px 23px #40557f, inset -8px -8px 23px #9cbcfd;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   margin-bottom: 24px;
+}
+.game__option {
+   flex: 1;
+   height: 100%;
+   font-weight: 700;
+   font-size: 22px;
+   color: var(--bg);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.game__option:hover {
+   cursor: pointer;
+   color: var(--fg);
+   background-color: var(--bg);
+   transition: all 300ms;
+}
+
+.game__action-container {
+   width: 90%;
+   background-color: var(--fg);
+   box-shadow: inset 8px 8px 23px #40557f, inset -8px -8px 23px #9cbcfd;
+   border-radius: 20px;
+   height: 250px;
+   display: grid;
+   grid-template-columns: 1fr 0.5fr 1fr;
+   grid-template-rows: 1fr 0.25fr;
+   justify-items: center;
+   align-items: center;
+}
+.action__text {
+   font-size: 40px;
+   color: var(--text);
+}
+
+.action__player,
+.action__cpu {
+   margin-top: 24px;
+   width: 125px;
+   height: 125px;
+   background: var(--bg);
+   border-radius: 20px;
+   box-shadow: 7px 7px 30px #263145, -7px -7px 30px #2e3b55;
+}
+.action__player-score,
+.action__cpu-score {
+   text-transform: uppercase;
+   font-weight: 700;
+   margin-top: 24px;
+   text-align: center;
+   color: var(--text);
+}
+.action__output {
+   color: var(--text);
+   grid-column: 1/-1;
+}
+.game__choices-container {
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-template-rows: repeat(3, 0.75fr);
+   margin-bottom: 16px;
+}
+.choice__text {
+   font-size: 2rem;
+   grid-column: 1/-1;
+   font-weight: 700;
+   color: var(--text);
+   align-self: center;
+   text-align: center;
+}
+.rock {
+   background: url("../res/images/rock.png") center/50% no-repeat;
+   grid-row: 2/3;
+   grid-column: 2/3;
+}
+.paper {
+   background: url("../res/images/paper.png") center/50% no-repeat;
+   grid-column: 1/2;
+   grid-row: 3/-1;
+}
+.scissors {
+   background: url("../res/images/scissors.png") center/45% no-repeat;
+   grid-row: 3/-1;
+   grid-column: 3/-1;
+}
+.choice__element {
+   cursor: pointer;
+   width: 125px;
+   height: 125px;
+   border-radius: 50%;
+   background-color: var(--fg);
+   box-shadow: inset 8px 8px 23px #40557f, inset -8px -8px 23px #9cbcfd;
+   outline: 6px solid var(--bg);
+   transition: all 300ms;
+}
+.choice__element:hover {
+   outline: 6px solid var(--text);
+   transition: all 300ms;
+}
+
+.author__link:link,
+.author__link:visited,
+.author__link:hover,
+.author__link:active {
+   text-decoration: none;
+   color: var(--text);
+}

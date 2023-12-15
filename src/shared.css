@@ -5,7 +5,7 @@
    --website-bg: #455b85;
    --bg: #2c3951;
    --fg: #6689cc;
-   --text: #f6f4f3;
+   --text: #d9d1d1;
    --win-color: #3bb273;
    --lose-color: #e15554;
    --tie-color: #e1bc29;
@@ -17,10 +17,12 @@ body {
    background-color: var(--website-bg);
    font-family: "Rubik", monospace;
    font-size: 16px;
+   height: 90%;
 }
 
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
+   user-select: none;
 }
