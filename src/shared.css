@@ -1,5 +1,32 @@
-/* Stylesheet used for setting the project baseline styling
-- global reset
-- fonts
-- colors
-*/
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Mono+One&family=Rubik:wght@400;700&display=swap");
+
+/* Color variables */
+:root {
+   --website-bg: #455b85;
+   --bg: #2c3951;
+   --fg: #6689cc;
+   --text: #d9d1d1;
+   --win-color: #3bb273;
+   --lose-color: #e15554;
+   --tie-color: #e1bc29;
+}
+
+/* Global reset and font family */
+html,
+body {
+   background-color: var(--website-bg);
+   font-family: "Rubik", monospace;
+   font-size: 16px;
+   height: 100%;
+   display: grid;
+   grid-template-columns: 1fr;
+   align-items: center;
+   justify-items: center;
+}
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   user-select: none;
+}

@@ -5,11 +5,42 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta name="authors" content="Murarasu Matei - George" />
       <meta name="contents" content="Small web game of Rock, Paper, Scissors" />
-      <title>TOP - Rock, Paper, Scissors</title>
+      <title>Rock.Paper.Scissors.</title>
       <link rel="stylesheet" href="shared.css" />
       <link rel="stylesheet" href="style.css" />
+      <link rel="shortcut icon" href="../res/icons/rock-paper-scissors.png" type="image/x-icon" />
    </head>
    <body>
+      <main class="game-container">
+         <h1 class="game__title">Rock.Paper.Scissors.</h1>
+         <section class="game__length-container">
+            <div class="game__option">BO3</div>
+            <div class="game__option">BO5</div>
+            <div class="game__option">Infinite</div>
+         </section>
+         <section class="game__action-container">
+            <div class="action__element">
+               <div class="action__player"></div>
+               <p class="action__player-score">Score : <span class="score">0</span></p>
+            </div>
+            <h2 class="action__text">VS</h2>
+            <div class="action__element">
+               <div class="action__cpu"></div>
+               <p class="action__cpu-score">Score : <span class="score">0</span></p>
+            </div>
+            </div>
+            <h3 class="action__output">Some Player</h3>
+         </section>
+         <section class="game__choices-container">
+            <p class="choice__text">Choose your weapon!</p>
+            <div class="choice__element rock"></div>
+            <div class="choice__element paper"></div>
+            <div class="choice__element scissors"></div>
+         </section>
+         <footer class="footer">
+            <p class="footer__author">Developed by : <a href="https://github.com/matei-george" target="_blank" rel="noopener noreferrer" class="author__link">Mat&lpar;2.718&rpar;i</a></p>
+         </footer>
+      </main>
       <script src="script.js"></script>
    </body>
 </html>
