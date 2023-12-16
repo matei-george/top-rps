@@ -14,28 +14,28 @@
       <main class="game-container">
          <h1 class="game__title">Rock.Paper.Scissors.</h1>
          <section class="game__length-container">
-            <div class="game__option">BO3</div>
-            <div class="game__option">BO5</div>
-            <div class="game__option">Infinite</div>
+            <div class="game__option bo3" onclick="getPlayerLength()">BO3</div>
+            <div class="game__option bo5"  onclick="getPlayerLength()">BO5</div>
+            <div class="game__option infinte"  onclick="getPlayerLength()">Infinite</div>
          </section>
          <section class="game__action-container">
             <div class="action__element">
                <div class="action__player"></div>
-               <p class="action__player-score">Score : <span class="score">0</span></p>
+               <p class="action__player-score">Score : <span class="player-score">0</span></p>
             </div>
             <h2 class="action__text">VS</h2>
             <div class="action__element">
                <div class="action__cpu"></div>
-               <p class="action__cpu-score">Score : <span class="score">0</span></p>
+               <p class="action__cpu-score">Score : <span class="cpu-score">0</span></p>
             </div>
             </div>
             <h3 class="action__output">Some Player</h3>
          </section>
          <section class="game__choices-container">
             <p class="choice__text">Choose your weapon!</p>
-            <div class="choice__element rock"></div>
-            <div class="choice__element paper"></div>
-            <div class="choice__element scissors"></div>
+            <div class="choice__element rock" onclick="getRockChoice()"></div>
+            <div class="choice__element paper" onclick="getPaperChoice()"></div>
+            <div class="choice__element scissors" onclick="getScissorsChoice()"></div>
          </section>
          <footer class="footer">
             <p class="footer__author">Developed by : <a href="https://github.com/matei-george" target="_blank" rel="noopener noreferrer" class="author__link">Mat&lpar;2.718&rpar;i</a></p>
