@@ -16,28 +16,64 @@ let result;
 let rounds;
 let playedRounds = 1;
 
-setGameLength(selectedRounds);
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
-function getRockChoice() {
+async function getBo3() {
+   rounds = 3;
+   setOutput("Best of 3 selected!");
+   await sleep(3000);
+   setOutput("Select your choice to start!");
+   document.querySelector(".game__choices-container").style.display = "grid";
+}
+async function getBo5() {
+   rounds = 5;
+   setOutput("Best of 5 selected!");
+   await sleep(3000);
+   setOutput("Select your choice to start!");
+   document.querySelector(".game__choices-container").style.display = "grid";
+}
+async function getInfinite() {
+   rounds = Infinity;
+   setOutput("Infinite mode selected!");
+   await sleep(3000);
+   setOutput("Select your choice to start!");
+   document.querySelector(".game__choices-container").style.display = "grid";
+}
+
+async function getRockChoice() {
    playerSelection = "rock";
+   let playerStyle = document.querySelector(".p__paper-image");
+   playerStyle.style.display = "none";
+   playerStyle = document.querySelector(".p__scissors-image");
+   playerStyle.style.display = "none";
+   playerStyle = document.querySelector(".p__rock-image");
+   playerStyle.style.display = "inline-block";
    computerSelection = getComputerChoice();
    result = gameLogic(playerSelection, computerSelection);
    setOutput(result);
    trackRounds();
 }
-function getPaperChoice() {
+async function getPaperChoice() {
    playerSelection = "paper";
+   const playerStyle = document.querySelector(".p__paper-image");
+   playerStyle.style.display = "inline-block";
    computerSelection = getComputerChoice();
    result = gameLogic(playerSelection, computerSelection);
    setOutput(result);
    trackRounds();
+   await sleep(3000);
+   playerStyle.style.display = "none";
 }
-function getScissorsChoice() {
+async function getScissorsChoice() {
    playerSelection = "scissors";
+   const playerStyle = document.querySelector(".p__scissors-image");
+   playerStyle.style.display = "inline-block";
    computerSelection = getComputerChoice();
    result = gameLogic(playerSelection, computerSelection);
    setOutput(result);
    trackRounds();
+   await sleep(3000);
+   playerStyle.style.display = "none";
 }
 
 function gameLogic(playerSelection, computerSelection) {

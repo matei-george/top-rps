@@ -1,19 +1,19 @@
 [--MARKDOWN--]
 TODO
-1. Structure with good semantic value.
-2. Try not to be too complicated.
-3. Flex for small items, grid for the entire project.
-4. Scalable? Mobile first? Responsive?
+1. Structure with good semantic value. ✔
+2. Try not to be too complicated. ✔
+3. Flex for small items, grid for the entire project. ✔
+4. Scalable? Mobile first? Responsive? ✖
 
 [--STYLING--]
 TODO
-1. Styling according to the design principles in the course.
-2. Root colors, fonts and icons.
-3. Try to implement KISS logic.
+1. Styling according to the design principles in the course. ✔
+2. Root colors, fonts and icons. ✔
+3. Try to implement KISS logic. ✔
 
 [--LOGIC--]
 TODO
-1. function getComputerChoice that selects Rock, Paper or Scissors
+1. function getComputerChoice that selects Rock, Paper or Scissors ✔
 2. function that plays a single round of RPS. Should have 2 parameters : playerSelection, computerSelection. Use return!
 3. function game with a playRound parameter.
 4. score system, bo3, bo5,infinite, [?]unfair(cpu selects first, and then all choices are against the player)
