@@ -3,14 +3,13 @@
 ![Static Badge](<https://img.shields.io/badge/authors-Mat(2.718)i-93c6d6>)
 ![GitHub License](https://img.shields.io/github/license/matei-george/top-rps)
 ![GitHub last commit (branch)](https://img.shields.io/github/last-commit/matei-george/top-rps/main)
-![Static Badge](https://img.shields.io/badge/language-HTML-82aeb1)
-![Static Badge](https://img.shields.io/badge/language-CSS-82aeb1)
-![Static Badge](https://img.shields.io/badge/language-JS-82aeb1)
+![Static Badge](https://img.shields.io/badge/built_with-Basic_Web_Stack-cbeaa6)
+
 
 ---
 
 <p align="center">
-Abstract : TODO
+A simple web game of Rock✊, Paper✋, Scissors✌.
 </p>
 
 ## Table of Contents
@@ -23,19 +22,23 @@ Abstract : TODO
 
 ## Introduction
 
-TODO
+This game takes you back to the good ol' childhood with a simple, yet captivating game of Rock, Paper, Scissors. Set your game-mode from the 3 possible options and use your weapons carefully in order to win!
 
 ## Tech-Stack
 
-TODO
+- HTML
+- CSS
+- JS
 
 ## Setup
 
-TODO
+The setup is as follows : just hop into the github pages link down below.
+
+https://matei-george.github.io/top-rps/
 
 ## Usage
 
-TODO
+First, select the gamemode, then wait a couple of seconds for the main game to pop out. Play your cards right and win! As easy as that. After you win, you can select the gamemode again and play more if you like. Or just choose `Infinite` from the start.
 
 ## Notes
 
