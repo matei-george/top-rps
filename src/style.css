@@ -82,7 +82,36 @@
    background: var(--bg);
    border-radius: 20px;
    box-shadow: 7px 7px 30px #263145, -7px -7px 30px #2e3b55;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.p__rock-image,
+.c__rock-image {
+   width: 80%;
+   display: none;
+}
+
+.p__paper-image {
+   transform: scaleX(-1);
+}
+.p__paper-image,
+.c__paper-image {
+   width: 60%;
+   display: none;
+}
+.p__scissors-image,
+.c__scissors-image {
+   width: 50%;
+   display: none;
+}
+
+.c__rock-image,
+.c__scissors-image {
+   transform: scaleX(-1);
+}
+
 .action__player-score,
 .action__cpu-score {
    text-transform: uppercase;
@@ -102,6 +131,7 @@
    grid-template-columns: repeat(3, 1fr);
    grid-template-rows: repeat(3, 0.75fr);
    margin-bottom: 16px;
+   display: none;
 }
 
 /* The items */
